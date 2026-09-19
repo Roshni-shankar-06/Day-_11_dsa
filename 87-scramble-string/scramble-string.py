@@ -6,7 +6,4 @@ class Solution:
     if collections.Counter(s1) != collections.Counter(s2):
       return False
 
-    for i in range(1, len(s1)):
-      if self.isScramble(s1[:i], s2[:i]) and self.isScramble(s1[i:], s2[i:]):
-        return True
-  
+
