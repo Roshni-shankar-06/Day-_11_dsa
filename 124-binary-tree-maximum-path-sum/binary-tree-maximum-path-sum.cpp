@@ -10,10 +10,4 @@ class Solution {
   // Returns the maximum path sum starting from the current root, where
   // root->val is always included.
   int maxPathSumDownFrom(TreeNode* root, int& ans) {
-    if (root == nullptr)
-      return 0;
-
-    const int l = max(0, maxPathSumDownFrom(root->left, ans));
-    const int r = max(0, maxPathSumDownFrom(root->right, ans));
- 
-
+  
