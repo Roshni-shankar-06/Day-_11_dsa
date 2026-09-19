@@ -15,9 +15,5 @@ class Solution {
 
     const int l = max(0, maxPathSumDownFrom(root->left, ans));
     const int r = max(0, maxPathSumDownFrom(root->right, ans));
-    ans = max(ans, root->val + l + r);
-    return root->val + max(l, r);
-  }
-};
-
+ 
 
