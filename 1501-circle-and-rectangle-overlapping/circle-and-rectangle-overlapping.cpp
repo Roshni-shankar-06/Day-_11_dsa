@@ -11,8 +11,4 @@ class Solution {
     int closestY = clamp(y_center, y1, y2);
 
     // the distance between the circle's center and its closest point
-    int distanceX = x_center - closestX;
-    int distanceY = y_center - closestY;
-
-    // If the distance < the circle's radius, an intersection occurs.
-    
+   
