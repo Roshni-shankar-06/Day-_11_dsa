@@ -15,7 +15,4 @@ class Solution {
     int distanceY = y_center - closestY;
 
     // If the distance < the circle's radius, an intersection occurs.
-    return (distanceX * distanceX) + (distanceY * distanceY) <=
-           (radius * radius);
-  }
-};
+  
