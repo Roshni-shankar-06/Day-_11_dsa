@@ -11,6 +11,4 @@ class Solution:
         return True
       if (self.isScramble(s1[:i], s2[len(s2) - i:]) and
               self.isScramble(s1[i:], s2[: len(s2) - i])):
-        return True
-
-    return False   
+      
